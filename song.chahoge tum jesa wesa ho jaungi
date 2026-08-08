@@ -1,0 +1,6 @@
+import time
+lyrics="Chahoge tum jesa ho jaungi wese,  Chaho to wada ye lelooooo."
+for word in lyrics.split():
+    print(word,end=" ",flush=True)
+    time.sleep(0.7)#adjust the delay(in seconds)
+print()
